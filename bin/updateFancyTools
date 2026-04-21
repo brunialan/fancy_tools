@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd ~/src/fancy_tools || exit 1
+
+git checkout main
+
+git pull
+
+cp bin/updateFancyTools ~/bin/
+
+echo "Fancy Tools mis à jour."
